@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @article.title
+%p
+  %b Cached slug:
+  = @article.cached_slug
+%p
+  %b Content:
+  = @article.content
+%p
+  %b Author:
+  = @article.author_id
+%p
+  %b Category:
+  = @article.category_id
+
+= link_to 'Edit', edit_article_path(@article)
+\|
+= link_to 'Back', articles_path
