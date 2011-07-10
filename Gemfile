@@ -8,10 +8,13 @@ gem 'devise' # Devise must be required before RailsAdmin
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'sqlite3'
 
+gem 'acts-as-taggable-on'
+
 gem 'haml'
 gem 'haml-rails'
 gem 'sass'
 
+gem 'simple_form'
 
 gem 'friendly_id'
 # Use unicorn as the web server
