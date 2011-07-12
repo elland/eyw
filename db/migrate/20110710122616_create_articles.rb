@@ -6,7 +6,7 @@ class CreateArticles < ActiveRecord::Migration
       t.string :content
       t.integer :author_id
       t.integer :category_id
-
+			t.boolean :draft
       t.timestamps
     end
   end

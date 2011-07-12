@@ -1,6 +1,5 @@
 Eyw::Application.routes.draw do
-  resources :articles
-
+	resource :articles, :categories, :users
   devise_for :users
 
   # The priority is based upon order of creation:
